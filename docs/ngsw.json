@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1696882985765,
+  "index": "defaultNgApp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "defaultNgApp/favicon.ico",
+        "defaultNgApp/index.html",
+        "defaultNgApp/main.c9132972bbd83ed7.js",
+        "defaultNgApp/manifest.webmanifest",
+        "defaultNgApp/polyfills.d0f347c594949f49.js",
+        "defaultNgApp/runtime.2539828146d60abd.js",
+        "defaultNgApp/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "defaultNgApp/assets/icons/icon-128x128.png",
+        "defaultNgApp/assets/icons/icon-144x144.png",
+        "defaultNgApp/assets/icons/icon-152x152.png",
+        "defaultNgApp/assets/icons/icon-192x192.png",
+        "defaultNgApp/assets/icons/icon-384x384.png",
+        "defaultNgApp/assets/icons/icon-512x512.png",
+        "defaultNgApp/assets/icons/icon-72x72.png",
+        "defaultNgApp/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "defaultNgApp/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "defaultNgApp/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "defaultNgApp/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "defaultNgApp/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "defaultNgApp/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "defaultNgApp/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "defaultNgApp/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "defaultNgApp/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "defaultNgApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "defaultNgApp/index.html": "25cf0f082867fe4941655cb5b9ccf2b1b238af2e",
+    "defaultNgApp/main.c9132972bbd83ed7.js": "5f8c9189c2261f11476cfccbc609fa36d7b9f430",
+    "defaultNgApp/manifest.webmanifest": "3999924c170bb6e80a916d1ec2e51980c06d5ed6",
+    "defaultNgApp/polyfills.d0f347c594949f49.js": "5530b089ecb9680637a9b18bb62752a4c991cc1e",
+    "defaultNgApp/runtime.2539828146d60abd.js": "ac9773f58e1c6a04c58f83f8d9ca988688b01e14",
+    "defaultNgApp/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
